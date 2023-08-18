@@ -6,7 +6,7 @@ def factorial(n):
 
 print(factorial(10))
 
-n = 10
+n = int(input())
 num = 1
 while n >=1:
     num = num*n
