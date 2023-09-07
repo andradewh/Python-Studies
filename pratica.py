@@ -27,6 +27,20 @@ while i < len(numid):
     i+=1
 '''
 
-list = [1,2,3,4]
+'''list = [1,2,3,4]
 
-print(*list, sep='\n')
+print(*list, sep='\n')'''
+
+
+listas = [['willian','maria','willian'],['ciclano','willian','fulano'],['maria','joão','willian']]
+palavras = []
+
+for lista in listas:
+    for palavra in lista:
+        palavras.append(palavra)
+
+palavras2 = set(palavras)
+
+print(*palavras2,sep='\n')
+
+
